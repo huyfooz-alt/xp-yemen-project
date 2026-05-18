@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XP</title>
+    <meta name="description" content="منصة XP لشحن الألعاب والبرامج">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="app-page">
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo-section">
+                    <img src="imgs/logo.png" alt="XP Logo" class="logo-img">
+                    <h1 class="logo-text">XP</h1>
+                </a>
+                <nav class="nav">
+                    <a href="index.html#programs" class="nav-link">الخدمات</a>
+                    <a href="index.html#contact" class="nav-link">تواصل معنا</a>
+                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="تبديل الوضع">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Back Button -->
+        <a href="index.html" class="back-button">
+            → العودة للرئيسية
+        </a>
+
+        <!-- Loading State -->
+        <div id="pageLoader" style="text-align: center; padding: 5rem; display: none;">
+            <div class="loader" style="margin: 0 auto;"></div>
+            <p style="margin-top: 1rem; color: var(--text-secondary);">جاري تحميل البيانات...</p>
+        </div>
+
+        <!-- content Wrapper (Hidden until loaded) -->
+        <div id="contentWrapper" style="display: none;">
+            <!-- App Header -->
+            <div class="app-header">
+                <div class="app-icon-large">
+                    <img id="appIcon" src="" alt="App Icon">
+                </div>
+                <h1 class="app-title" id="appTitle"></h1>
+                <p class="app-description" id="appDescription"></p>
+            </div>
+
+            <!-- Categories Section -->
+            <div class="categories-section">
+                <h2 class="categories-title">الفئات المتوفرة</h2>
+                <p class="categories-subtitle">اختر الفئة التي تريدها</p>
+
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be inserted here by JavaScript -->
+                </div>
+
+                <!-- Order Modal -->
+                <div class="order-modal" id="orderModal">
+                    <div class="order-modal-content">
+                        <span class="close-modal" onclick="closeOrderModal()"></span>
+                        <h3 class="form-title">تأكيد الطلب</h3>
+
+                        <div class="selected-info" id="selectedInfo">
+                            <!-- Selected category info inserted here -->
+                        </div>
+
+                        <!-- Payment Info Button -->
+                        <button class="payment-info-btn" onclick="openPaymentSheet()">
+                            معلومات الدفع الكاملة
+                        </button>
+
+                        <div class="form-group">
+                            <label for="playerId" class="form-label">Player ID / المعرف</label>
+                            <input type="text" id="playerId" class="form-input" placeholder="أدخل المعرف (ID)"
+                                autocomplete="off">
+                        </div>
+
+                        <button class="submit-btn" onclick="confirmOrder()">
+                            تأكيد عبر واتساب
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Bottom Sheet -->
+        <div id="paymentSheet" class="payment-sheet">
+            <div class="payment-sheet-overlay" onclick="closePaymentSheet()"></div>
+            <div class="payment-sheet-content">
+                <div class="payment-sheet-header">
+                    <span class="close-sheet" onclick="closePaymentSheet()"></span>
+                    <h3>معلومات الدفع</h3>
+                </div>
+
+                <div class="payment-sheet-body">
+                    <!-- Bank Accounts Section -->
+                    <div class="payment-section">
+                        <h4 class="payment-section-title">حسابات بنك الكريمي</h4>
+                        <p class="payment-owner">باسم: اسامه عبدالغني محمد محمد يفوز</p>
+
+                        <div class="payment-item">
+                            <div class="payment-item-label">حساب الريال اليمني</div>
+                            <div class="payment-item-value">
+                                <span class="account-num">3045107522</span>
+                                <button onclick="copyToClipboard('3045107522', this)" class="btn-copy">نسخ</button>
+                            </div>
+                        </div>
+
+                        <div class="payment-item">
+                            <div class="payment-item-label">حساب الريال السعودي</div>
+                            <div class="payment-item-value">
+                                <span class="account-num">3045116618</span>
+                                <button onclick="copyToClipboard('3045116618', this)" class="btn-copy">نسخ</button>
+                            </div>
+                        </div>
+
+                        <div class="payment-item">
+                            <div class="payment-item-label">حساب الدولار</div>
+                            <div class="payment-item-value">
+                                <span class="account-num">3126948262</span>
+                                <button onclick="copyToClipboard('3126948262', this)" class="btn-copy">نسخ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E-Wallets Section -->
+                    <div class="payment-section">
+                        <h4 class="payment-section-title">المحافظ الإلكترونية</h4>
+                        <p class="payment-owner">باسم: اسامه عبدالغني محمد محمد يفوز</p>
+
+                        <div class="wallet-list">
+                            <div class="wallet-badge">
+                                <img src="imgs/jaibwallet.png" alt="محفظة جيب" class="wallet-icon">
+                            </div>
+                            <div class="wallet-badge">
+                                <img src="imgs/floosakwallet.png" alt="محفظة فلوسك" class="wallet-icon">
+                            </div>
+                            <div class="wallet-badge">
+                                <img src="imgs/jawaliwallet.png" alt="محفظة جوالي" class="wallet-icon">
+                            </div>
+                            <div class="wallet-badge">
+                                <img src="imgs/cashwallet.png" alt="محفظة كاش" class="wallet-icon">
+                            </div>
+                            <div class="wallet-badge">
+                                <img src="imgs/onecashwallet.png" alt="محفظة ون كاش" class="wallet-icon">
+                            </div>
+                        </div>
+
+                        <div class="payment-item featured">
+                            <div class="payment-item-label">الرقم الموحد لجميع المحافظ <br>باسم: اسامه عبد الغني محمد
+                                محمد يفوز</div>
+                            <div class="payment-item-value">
+                                <span class="account-num featured-num">775211618</span>
+                                <button onclick="copyToClipboard('775211618', this)" class="btn-copy">نسخ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Exchange Networks Section -->
+                    <div class="payment-section">
+                        <h4 class="payment-section-title">شبكات الصرافة</h4>
+                        <p class="payment-note">متاح عبر جميع شبكات الصرافة بنفس الاسم المذكور أعلاه</p>
+                    </div>
+
+                    <!-- Important Notice -->
+                    <div class="payment-notice-box">
+                        <span class="notice-icon">⚠️</span>
+                        <p>بعد التحويل، يرجى إرسال صورة الإيصال عبر واتساب لتأكيد الطلب</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reminder Modal (Same as Home Page) -->
+        <div id="reminderModal" class="modal reminder-modal">
+            <div class="modal-content reminder-content">
+                <span class="close-modal" onclick="closeReminderModal()"></span>
+                <div class="reminder-icon">⚠️</div>
+                <h3>تذكير هام!</h3>
+                <p>يرجى التأكد من إرسال صورة التحويل يدويا على واتساب لضمان إتمام العملية بسرعة.</p>
+                <div class="reminder-actions">
+                    <button onclick="confirmRedirect()" class="btn-confirm">تأكيد ومتابعة</button>
+                    <button onclick="closeReminderModal()" class="btn-cancel">إلغاء</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorState" style="text-align: center; padding: 5rem; display: none;">
+            <h2 style="color: #f5576c;">عذراً، حدث خطأ ما</h2>
+            <p style="color: var(--text-secondary);">لم نتمكن من العثور على الصفحة المطلوبة.</p>
+            <a href="index.html" class="whatsapp-btn" style="margin-top: 1rem; display: inline-flex;">عودة للرئيسية</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 XP - جميع الحقوق محفوظة</p>
+            <p class="footer-subtext">منصة شحن الألعاب الأفضل في اليمن</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=3"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initDetailsPage();
+        });
+    </script>
+</body>
+
+</html>
