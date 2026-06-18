@@ -1234,6 +1234,61 @@
         ]
     },
     {
+        "id": "soul_star",
+        "name": "soul_star Salary Service",
+        "nameAr": "خدمة الراتب لبرنامج سول ستار",
+        "icon": "imgs/soul_star.png",
+        "description": "خدمة سحب الراتب وشرح الآلية لبرنامج سول ستار",
+        "note": "⚠️ عمليات السحب متوفرة لهذا البرنامج طوال الأسبوع عدا السبت والأحد",
+        "type": "salary",
+        "withdrawLink": "TUKu4qEjQfHJi4F5dmQ3Ae6m9JsWVeWtx8",
+        "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
+    },  
+    {
+        "id": "our_talk",
+        "name": "our_talk Salary Service",
+        "nameAr": "خدمة الراتب لبرنامج اور توك ",
+        "icon": "imgs/our_talk.png",
+        "description": "خدمة سحب الراتب وشرح الآلية لبرنامج سول ستار",
+        "note": "⚠️ عمليات السحب متوفرة لهذا البرنامج طوال الأسبوع عدا السبت والأحد",
+        "type": "salary",
+        "withdrawLink": "TUKu4qEjQfHJi4F5dmQ3Ae6m9JsWVeWtx8",
+        "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
+    }, 
+    {
+        "id": "junko",
+        "name": "junko Salary Service",
+        "nameAr": "خدمة الراتب لبرنامج جانكو  ",
+        "icon": "imgs/junko.png",
+        "description": "خدمة سحب الراتب وشرح الآلية لبرنامج سول ستار",
+        "note": "⚠️ عمليات السحب متوفرة لهذا البرنامج طوال الأسبوع عدا السبت والأحد",
+        "type": "salary",
+        "withdrawLink": "TUKu4qEjQfHJi4F5dmQ3Ae6m9JsWVeWtx8",
+        "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
+    }, 
+    {
+        "id": "shaghaf_chat",
+        "name": "shaghaf_chat Salary Service",
+        "nameAr": "خدمة الراتب لبرنامج شغف  ",
+        "icon": "imgs/shaghaf_chat.png",
+        "description": "خدمة سحب الراتب وشرح الآلية لبرنامج سول ستار",
+        "note": "⚠️ عمليات السحب متوفرة لهذا البرنامج طوال الأسبوع عدا السبت والأحد",
+        "type": "salary",
+        "withdrawLink": "TUKu4qEjQfHJi4F5dmQ3Ae6m9JsWVeWtx8",
+        "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
+    }, 
+    {
+        "id": "zaffa",
+        "name": "zaffa Salary Service",
+        "nameAr": "خدمة الراتب لبرنامج زاف شات ",
+        "icon": "imgs/zaffa.png",
+        "description": "خدمة سحب الراتب وشرح الآلية لبرنامج سول ستار",
+        "note": "⚠️ عمليات السحب متوفرة لهذا البرنامج طوال الأسبوع عدا السبت والأحد",
+        "type": "salary",
+        "withdrawLink": "TUKu4qEjQfHJi4F5dmQ3Ae6m9JsWVeWtx8",
+        "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
+    },  
+    {
         "id": "party_star_salary",
         "name": "Party Star Salary Service",
         "nameAr": "خدمة الراتب لبرنامج بارتي ستار",
@@ -1566,7 +1621,7 @@
     {
         "id": "ahlan",
         "name": "ahlan",
-        "nameAr": "هلا",
+        "nameAr": "اهلا",
         "icon": "imgs/ahlan.png",
         "description": "انطلق في عالم المتعة والترفيه واشحن ذهب تطبيق بيلا شات (ahlan) الآن لفتح ميزات الدردشة الصوتية وإرسال الهدايا المميزة لأصدقائك.",
         "type": "program",
@@ -2403,6 +2458,484 @@
                 "amount": "نوفا اشتراك 12شهر",
                 "priceYER": 6200
             }
+        ]
+    },
+    {
+        "id": "shaghaf_chat",
+        "name": "shaghaf_chat",
+        "nameAr": "شغف",
+        "icon": "imgs/shaghaf_chat.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشارء العملات (shaghaf_chat) الآن تم فتح ميزات شراء وبيع عملات.",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "10,000 كونزة",
+                "priceYER": 700
+            },
+            {
+                "amount": "20,000 كونزة",
+                "priceYER": 1400
+            },
+           {
+                "amount": "30,000 كونزة",
+                "priceYER": 2100
+            },
+            {
+                "amount": "40,000 كونزة",
+                "priceYER": 2800
+            },
+            {
+                "amount": "50,000 كونزة",
+                "priceYER": 3500
+            },
+            {
+                "amount": "100,000 كونزة",
+                "priceYER": 7000
+            },
+            {
+                "amount": "200,000 كونزة",
+                "priceYER": 14000
+            }
+           
+        ]
+    },
+    {
+        "id": "ahlan_chat",
+        "name": "ahlan_chat",
+        "nameAr": "اهلا",
+        "icon": "imgs/ahlan_chat.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشارء العملات (ahlan_chat) الآن تم فتح ميزات شراء وبيع عملات.",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "2,000 كونزة",
+                "priceYER": 450
+            },
+            {
+                "amount": "2,500 كونزة",
+                "priceYER": 560
+            },
+           {
+                "amount": "3,000 كونزة",
+                "priceYER": 680
+            },
+            {
+                "amount": "4,000 كونزة",
+                "priceYER": 900
+            },
+            {
+                "amount": "5,000 كونزة",
+                "priceYER": 1130
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 36500
+            },
+            {
+                "amount": "10,000 كونزة",
+                "priceYER": 2250
+            },
+            {
+                "amount": "20,000 كونزة",
+                "priceYER": 4490
+            },
+            {
+                "amount": "30,000 كونزة",
+                "priceYER": 4490
+            },
+            {
+                "amount": "40,000 كونزة",
+                "priceYER": 8970
+            },
+            {
+                "amount": "50,000 كونزة",
+                "priceYER": 11210
+            },
+            {
+                "amount": "100,000 كونزة",
+                "priceYER": 22420
+            },
+            {
+                "amount": "200,000 كونزة",
+                "priceYER": 44840
+            },
+            {
+                "amount": "300,000 كونزة",
+                "priceYER": 67250
+            },
+            {
+                "amount": "400,000 كونزة",
+                "priceYER": 89670
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 112090
+            }
+           
+        ]
+    },
+    {
+        "id": "HAWA",
+        "name": "HAWA",
+        "nameAr": "هوا",
+        "icon": "imgs/HAWA.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (HAWA) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "1,000 عمله",
+                "priceYER": 340
+            },
+            {
+                "amount": "2,000 عمله",
+                "priceYER": 680
+            },
+           {
+                "amount": "3,000 عمله",
+                "priceYER": 1010
+            },
+            {
+                "amount": "4,000 عمله",
+                "priceYER": 1345
+            },
+            {
+                "amount": "5,000 عمله",
+                "priceYER": 1680
+            },
+            {
+                "amount": "10,000 عمله",
+                "priceYER": 3370
+            },
+            {
+                "amount": "20,000 عمله",
+                "priceYER": 6725
+            },
+            {
+                "amount": "30,000 عمله",
+                "priceYER": 10090
+            },
+            {
+                "amount": "40,000 عمله",
+                "priceYER": 16820
+            },
+            {
+                "amount": "95,000 عمله",
+                "priceYER": 31950
+            },
+            {
+                "amount": "100,000 عمله",
+                "priceYER": 33625
+            },
+            {
+                "amount": "200,000 عمله",
+                "priceYER": 67250
+            },
+            {
+                "amount": "300,000 عمله",
+                "priceYER": 100880
+            },
+            {
+                "amount": "400,000 عمله",
+                "priceYER": 134500
+            },
+            {
+            }
+           
+        ]
+    },
+    {
+        "id": "WAHO",
+        "name": "WAHO",
+        "nameAr": "واهو",
+        "icon": "imgs/WAHO.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (WAHO) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "10,000 ماسة",
+                "priceYER": 615
+            },
+            {
+                "amount": "20,000 ماسة",
+                "priceYER": 1230
+            },
+           {
+                "amount": "30,000 ماسة",
+                "priceYER": 1845
+            },
+            {
+                "amount": "40,000 ماسة",
+                "priceYER": 2460
+            },
+            {
+                "amount": "50,000 ماسة",
+                "priceYER": 3074
+            },
+            {
+                "amount": "100,000 ماسة",
+                "priceYER": 6150
+            },
+            {
+                "amount": "200,000 ماسة",
+                "priceYER": 12300
+            },
+            {
+                "amount": "300,000 ماسة",
+                "priceYER": 18450
+            },
+            {
+                "amount": "400,000 ماسة",
+                "priceYER": 24600
+            },
+            {
+                "amount": "500,000 ماسة",
+                "priceYER": 30750
+            },
+            {
+                "amount": "1,000,000 ماسة",
+                "priceYER": 61486
+              
+            }
+           
+        ]
+    },
+    {
+        "id": "tami",
+        "name": "tami",
+        "nameAr": "تامي",
+        "icon": "imgs/tami.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (tami) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "10,000 كونزة",
+                "priceYER": 450
+            },
+            {
+                "amount": "20,000 كونزة",
+                "priceYER": 900
+            },
+           {
+                "amount": "30,000 كونزة",
+                "priceYER": 1350
+            },
+            {
+                "amount": "40,000 كونزة",
+                "priceYER": 1800
+            },
+            {
+                "amount": "50,000 كونزة",
+                "priceYER": 2250
+            },
+            {
+                "amount": "100,000 كونزة",
+                "priceYER": 4490
+            },
+            {
+                "amount": "200,000 كونزة",
+                "priceYER": 8970
+            },
+            {
+                "amount": "300,000 كونزة",
+                "priceYER": 13450
+            },
+            {
+                "amount": "400,000 كونزة",
+                "priceYER": 17950
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 22420
+            },
+            {
+                "amount": "1,000,000 كونزة",
+                "priceYER": 44850
+            }
+           
+        ]
+    },
+    {
+        "id": "salam_chat",
+        "name": "salam_chat",
+        "nameAr": "سلام",
+        "icon": "imgs/salam_chat.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (salam_chat) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "8,000 كونزة",
+                "priceYER": 480
+            },
+            {
+                "amount": "20,000 كونزة",
+                "priceYER": 900
+            },
+           {
+                "amount": "30,000 كونزة",
+                "priceYER": 1350
+            },
+            {
+                "amount": "40,000 كونزة",
+                "priceYER": 1800
+            },
+            {
+                "amount": "50,000 كونزة",
+                "priceYER": 2250
+            },
+            {
+                "amount": "100,000 كونزة",
+                "priceYER": 4490
+            },
+            {
+                "amount": "200,000 كونزة",
+                "priceYER": 8970
+            },
+            {
+                "amount": "300,000 كونزة",
+                "priceYER": 13450
+            },
+            {
+                "amount": "400,000 كونزة",
+                "priceYER": 17950
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 22420
+            },
+            {
+                "amount": "1,000,000 كونزة",
+                "priceYER": 44850
+            }
+           
+        ]
+    },
+    {
+        "id": "our_talk",
+        "name": "our_talk",
+        "nameAr": "اور توك",
+        "icon": "imgs/our_talk.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (our_talk) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "50,000 كونزة",
+                "priceYER": 750
+            },
+            {
+                "amount": "100,000 كونزة",
+                "priceYER": 1500
+            },
+           {
+                "amount": "200,000 كونزة",
+                "priceYER": 3000
+            },
+            {
+                "amount": "300,000 كونزة",
+                "priceYER": 4500
+            },
+            {
+                "amount": "400,000 كونزة",
+                "priceYER": 6000
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 7500
+            },
+            {
+                "amount": "1,000,000 كونزة",
+                "priceYER": 15000
+            },
+            {
+                "amount": "2,000,000 كونزة",
+                "priceYER": 30000
+            },
+            {
+                "amount": "4,000,000 كونزة",
+                "priceYER": 45000
+            },
+            {
+                "amount": "5,000,000 كونزة",
+                "priceYER": 60000
+            }
+           
+        ]
+    },
+    {
+        "id": "junko",
+        "name": "junko",
+        "nameAr": "جانكو",
+        "icon": "imgs/junko.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (junko) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "50,000 كونزة",
+                "priceYER": 650
+            },
+            {
+                "amount": "100,000 كونزة",
+                "priceYER": 1300
+            },
+           {
+                "amount": "200,000 كونزة",
+                "priceYER": 2600
+            },
+            {
+                "amount": "400,000 كونزة",
+                "priceYER": 5200
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 6500
+            },
+            {
+                "amount": "1,000,000 كونزة",
+                "priceYER": 13000
+            },
+            {
+                "amount": "2,000,000 كونزة",
+                "priceYER": 26000
+            }
+           
+        ]
+    },
+    {
+        "id": "zaffa",
+        "name": "zaffa",
+        "nameAr": "زافا لايف",
+        "icon": "imgs/zaffa.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (zaffa) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [
+            {
+                "amount": "70,000 كونزة",
+                "priceYER": 700
+            },
+            {
+                "amount": "140,000 كونزة",
+                "priceYER": 1400
+            },
+           {
+                "amount": "200,000 كونزة",
+                "priceYER": 2000
+            },
+            {
+                "amount": "400,000 كونزة",
+                "priceYER": 4000
+            },
+            {
+                "amount": "500,000 كونزة",
+                "priceYER": 5000
+            },
+            {
+                "amount": "1,000,000 كونزة",
+                "priceYER": 10000
+            },
+            {
+                "amount": "2,000,000 كونزة",
+                "priceYER": 20000
+            }
+           
         ]
     }
 ]
