@@ -2303,7 +2303,7 @@
         ]
     },
     {
-        "id": "soul_star",
+        "id": "soul_star.",
         "name": "soul_star",
         "nameAr": "سول ستار",
         "icon": "imgs/soul_star.png",
@@ -2462,7 +2462,7 @@
     },
     {
         "id": "shaghaf_chat",
-        "name": "shaghaf_chat",
+        "name": "shaghaf_chat.",
         "nameAr": "شغف",
         "icon": "imgs/shaghaf_chat.png",
         "description": "انطلق في عالم المتعة والترفيه وقم بشارء العملات (shaghaf_chat) الآن تم فتح ميزات شراء وبيع عملات.",
@@ -2495,81 +2495,6 @@
             {
                 "amount": "200,000 كونزة",
                 "priceYER": 14000
-            }
-           
-        ]
-    },
-    {
-        "id": "ahlan_chat",
-        "name": "ahlan_chat",
-        "nameAr": "اهلا",
-        "icon": "imgs/ahlan_chat.png",
-        "description": "انطلق في عالم المتعة والترفيه وقم بشارء العملات (ahlan_chat) الآن تم فتح ميزات شراء وبيع عملات.",
-        "type": "program",
-        "packages": [
-            {
-                "amount": "2,000 كونزة",
-                "priceYER": 450
-            },
-            {
-                "amount": "2,500 كونزة",
-                "priceYER": 560
-            },
-           {
-                "amount": "3,000 كونزة",
-                "priceYER": 680
-            },
-            {
-                "amount": "4,000 كونزة",
-                "priceYER": 900
-            },
-            {
-                "amount": "5,000 كونزة",
-                "priceYER": 1130
-            },
-            {
-                "amount": "500,000 كونزة",
-                "priceYER": 36500
-            },
-            {
-                "amount": "10,000 كونزة",
-                "priceYER": 2250
-            },
-            {
-                "amount": "20,000 كونزة",
-                "priceYER": 4490
-            },
-            {
-                "amount": "30,000 كونزة",
-                "priceYER": 4490
-            },
-            {
-                "amount": "40,000 كونزة",
-                "priceYER": 8970
-            },
-            {
-                "amount": "50,000 كونزة",
-                "priceYER": 11210
-            },
-            {
-                "amount": "100,000 كونزة",
-                "priceYER": 22420
-            },
-            {
-                "amount": "200,000 كونزة",
-                "priceYER": 44840
-            },
-            {
-                "amount": "300,000 كونزة",
-                "priceYER": 67250
-            },
-            {
-                "amount": "400,000 كونزة",
-                "priceYER": 89670
-            },
-            {
-                "amount": "500,000 كونزة",
-                "priceYER": 112090
             }
            
         ]
@@ -2810,7 +2735,7 @@
         ]
     },
     {
-        "id": "our_talk",
+        "id": "our_talk.",
         "name": "our_talk",
         "nameAr": "اور توك",
         "icon": "imgs/our_talk.png",
@@ -2861,7 +2786,7 @@
         ]
     },
     {
-        "id": "junko",
+        "id": "junko.",
         "name": "junko",
         "nameAr": "جانكو",
         "icon": "imgs/junko.png",
@@ -2900,13 +2825,13 @@
         ]
     },
     {
-        "id": "zaffa",
+        "id": "zaffa_live",
         "name": "zaffa",
         "nameAr": "زافا لايف",
         "icon": "imgs/zaffa.png",
         "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (zaffa) الآن  اشحن تطبيقاتك بسهوله اشحن .",
         "type": "program",
-        "packages": [
+        "packages": [ 
             {
                 "amount": "70,000 كونزة",
                 "priceYER": 700
@@ -2915,7 +2840,7 @@
                 "amount": "140,000 كونزة",
                 "priceYER": 1400
             },
-           {
+            {
                 "amount": "200,000 كونزة",
                 "priceYER": 2000
             },
