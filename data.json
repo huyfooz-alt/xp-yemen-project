@@ -1289,6 +1289,17 @@
         "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
     },  
     {
+        "id": "shabab_chat_salary",
+        "name": "shabab_chat Salary Service",
+        "nameAr": "خدمة الراتب لبرنامج شباب",
+        "icon": "imgs/shabab_chat.png",
+        "description": "خدمة سحب الراتب وشرح الآلية لبرنامج  شباب",
+        "note": "⚠️  عمليات السحب متوفرة لهذا البرنامج طوال الأسبوع عدا السبت والأحد",
+        "type": "salary",
+        "withdrawLink": "TUKu4qEjQfHJi4F5dmQ3Ae6m9JsWVeWtx8",
+        "explanationLink": "https://www.instagram.com/reel/DT6Uk-4jXx_/?igsh=NjNmNHBlOHhyNTFx"
+    },  
+    {
         "id": "party_star_salary",
         "name": "Party Star Salary Service",
         "nameAr": "خدمة الراتب لبرنامج بارتي ستار",
@@ -2858,6 +2869,158 @@
             },
             {
                 "amount": "2,000,000 كونزة",
+                "priceYER": 20000
+            }
+           
+        ]
+    },
+    {
+        "id": "shabab_chat",
+        "name": "shabab_chat",
+        "nameAr": "شباب",
+        "icon": "imgs/shabab_chat.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (shabab_chat) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [ 
+            {
+                "amount": "40,000 كونزة",
+                "priceYER": 550
+            },
+            {
+                "amount": "80,000 كونزة",
+                "priceYER": 1100
+            },
+            {
+                "amount": "160,000 كونزة",
+                "priceYER": 2200
+            },
+            {
+                "amount": "320,000 كونزة",
+                "priceYER": 4400
+            },
+            {
+                "amount": "640,000 كونزة",
+                "priceYER": 8800
+            },
+            {
+                "amount": "1,280,000 كونزة",
+                "priceYER": 17600
+            }
+           
+        ]
+    },
+    {
+        "id": "4party",
+        "name": "4party",
+        "nameAr": "اوباا",
+        "icon": "imgs/4party.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (4party) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [ 
+            {
+                "amount": "20,000 كونزة",
+                "priceYER": 1000
+            },
+            {
+                "amount": "40,000 كونزة",
+                "priceYER": 2000
+            },
+            {
+                "amount": "80,000 كونزة",
+                "priceYER": 4000
+            },
+            {
+                "amount": "160,000 كونزة",
+                "priceYER": 8000
+            },
+            {
+                "amount": "320,000 كونزة",
+                "priceYER": 16000
+            },
+            {
+                "amount": "640,000 كونزة",
+                "priceYER": 32000
+            },
+            {
+                "amount": "1,280,000 كونزة",
+                "priceYER": 66000
+            }
+           
+        ]
+    },
+    {
+        "id": "hopi_star",
+        "name": "hopi_star",
+        "nameAr": "هوبي ستار",
+        "icon": "imgs/hopi_star.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (hopi_star) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [ 
+            {
+                "amount": "3,000,000 كونزة",
+                "priceYER": 600
+            },
+            {
+                "amount": "6,000,000 كونزة",
+                "priceYER": 1200
+            },
+            {
+                "amount": "12,000,000 كونزة",
+                "priceYER": 2400
+            },
+            {
+                "amount": "24,000,000 كونزة",
+                "priceYER": 4800
+            },
+            {
+                "amount": "48,000,000 كونزة",
+                "priceYER": 9600
+            },
+            {
+                "amount": "96,000,000 كونزة",
+                "priceYER": 19200
+            },
+            {
+                "amount": "100,000,000 كونزة",
+                "priceYER": 20000
+            }
+           
+        ]
+    },
+    {
+        "id": "waki_star",
+        "name": "waki_star",
+        "nameAr": "واكي ستار",
+        "icon": "imgs/waki_star.png",
+        "description": "انطلق في عالم المتعة والترفيه وقم بشراء العملات (waki_star) الآن  اشحن تطبيقاتك بسهوله اشحن .",
+        "type": "program",
+        "packages": [ 
+            {
+                "amount": "3,000,000 كونزة",
+                "priceYER": 600
+            },
+            {
+                "amount": "6,000,000 كونزة",
+                "priceYER": 1200
+            },
+            {
+                "amount": "12,000,000 كونزة",
+                "priceYER": 2400
+            },
+            {
+                "amount": "24,000,000 كونزة",
+                "priceYER": 4800
+            },
+            {
+                "amount": "48,000,000 كونزة",
+                "priceYER": 9600
+            },
+            {
+                "amount": "96,000,000 كونزة",
+                "priceYER": 19200
+            },
+            {
+                "amount": "100,000,000 كونزة",
                 "priceYER": 20000
             }
            
